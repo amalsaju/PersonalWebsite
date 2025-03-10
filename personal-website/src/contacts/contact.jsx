@@ -1,7 +1,9 @@
 export default function Contact() {
+    const serviceId = import.meta.env.VITE_SERVICE_ID;
     return (
         <div>
-            <h1>This is the contact section</h1>
+            <h1>Contact Me</h1>
+            {serviceId}
         </div>
     )
 }

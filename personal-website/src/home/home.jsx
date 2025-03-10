@@ -10,10 +10,10 @@ export default function Home() {
         Software Engineer
       </h4>
       <h5>
-        <a href="">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/amal-saju-kalarickal/" target="_blank">LinkedIn</a>
       </h5>
       <h5>
-        <a href="">Github</a>
+        <a href="https://github.com/amalsaju/Amalsaju" target="_blank">Github</a>
       </h5>
     </div>
   );
