@@ -1,12 +1,12 @@
 export default function Home() {
   return (
-    <div className="flex flex-col items-center w-full h-screen md:flex-row md:justify-start ">
-      <div className="flex w-full justify-center ml-10 mt-10 md:m-0 md:w-1/2">
+    <div className="flex flex-col items-center justify-center w-full h-screen md:flex-row md:justify-start ">
+      <div className="flex w-full justify-center ml-10 md:m-0 md:w-1/2">
         <div className="rounded-full h-50 w-50 bg-amber-500 ">
           {/* avatar here */}
         </div>
       </div>
-      <div className="w-2/3 flex flex-col items-center md:items-start">
+      <div className="w-full flex flex-col pt-[7vh] items-center ml-10 mt-5 md:w-2/3 md:items-start">
         <div>
           <h1 className="font-bold text-slate-800 text-2xl lg:max-w-3xl lg:text-5xl">
             Hi, I'm Amal
@@ -17,14 +17,14 @@ export default function Home() {
             Software Engineer
           </h3>
         </div>
-        <div>
-          <p className="font-bold text-slate-600 text-md lg:max-w-xl lg:text-xl">
-            I'm pretty passionate about programming and making stuff. I try to
-            make applications and small games whenever I can. Additionally, I
-            like working out as well.
-          </p>
+        <div className="flex w-full font-bold justify-center  text-slate-600 text-md md:justify-start lg:max-w-xl lg:text-xl">
+          <div className="w-[75%] pl-5 text-center md:pl-0 md:p-5 md:text-start">
+            I'm passionate about programming and making stuff. I try to make
+            applications and small games whenever I can. <br /> I also like
+            working out.
+          </div>
         </div>
-        <div className="flex w-full justify-start gap-4">
+        <div className="flex w-full justify-center md:justify-start gap-4">
           <div className="">
             <h5>
               <a
