@@ -36,23 +36,23 @@ export default function Contact() {
     e.target.reset();
   };
   return (
-    <div className="flex flex-col ml-20">
+    <div className="flex flex-col ml-22 h-screen justify-center">
       <div>
-        <h1 className="font-bold leading-snug tracking-tight text-gray-200 my-6 w-full text-3xl lg:max-w-3xl lg:text-5xl">
+        <h1 className="font-bold leading-snug tracking-tight mb-3 text-gray-200 w-full text-3xl md:mb-10 md:ml-20 lg:max-w-3xl lg:text-5xl">
           Contact Me
         </h1>
       </div>
-      <form className="flex flex-col" onSubmit={sendEmail}>
-        <div className="md:flex md:items-center mb-6">
-          <div className="md:w-1/3">
+      <form className="flex flex-col pr-5 gap-3" onSubmit={sendEmail}>
+        <div className="md:flex ">
+          <div className="md:w-1/5">
             <label
-              className="block text-gray-500 font-bold md:text-right mb-1 "
+              className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
               htmlFor="inline-full-name"
             >
               Name
             </label>
           </div>
-          <div className="md:w-2/3">
+          <div className="md:w-1/3">
             <input
               className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
               id="inline-full-name"
@@ -61,8 +61,8 @@ export default function Contact() {
             />
           </div>
         </div>
-        <div className="md:flex md:items-center mb-6">
-          <div className="md:w-1/3">
+        <div className="md:flex ">
+          <div className="md:w-1/5">
             <label
               className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
               htmlFor="email"
@@ -70,7 +70,7 @@ export default function Contact() {
               Email
             </label>
           </div>
-          <div className="md:w-2/3">
+          <div className="md:w-1/3">
             <input
               className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
               id="email"
@@ -79,8 +79,8 @@ export default function Contact() {
             />
           </div>
         </div>
-        <div className="md:flex md:items-center mb-6">
-          <div className="md:w-1/3">
+        <div className="md:flex ">
+          <div className="md:w-1/5">
             <label
               className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
               htmlFor="message"
@@ -88,10 +88,9 @@ export default function Contact() {
               Message
             </label>
           </div>
-          <div className="md:w-2/3">
+          <div className="md:w-1/3">
             <textarea
-              rows="3"
-              cols="50"
+              rows="7"
               className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
               id="message"
               name="message"
