@@ -36,17 +36,17 @@ export default function Contact() {
     e.target.reset();
   };
   return (
-    <div>
+    <div className="flex flex-col ml-20">
       <div>
-        <h1 class="font-bold leading-snug tracking-tight text-gray-200 mx-auto my-6 w-full text-2xl lg:max-w-3xl lg:text-5xl">
+        <h1 className="font-bold leading-snug tracking-tight text-gray-200 my-6 w-full text-3xl lg:max-w-3xl lg:text-5xl">
           Contact Me
         </h1>
       </div>
-      <form className="w-full max-w-sm" onSubmit={sendEmail}>
+      <form className="flex flex-col" onSubmit={sendEmail}>
         <div className="md:flex md:items-center mb-6">
           <div className="md:w-1/3">
             <label
-              className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+              className="block text-gray-500 font-bold md:text-right mb-1 "
               htmlFor="inline-full-name"
             >
               Name

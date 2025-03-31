@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Music Visualiser",
+    "description": "A simple music Visualiser which has basic play/pause & seek functionalities",
+    "imageName": "visualizer.png"
+  },
+  {
+    "id": 2,
+    "name": "Music Visualiser",
+    "description": "A simple music Visualiser which has basic play/pause & seek functionalities",
+    "imageName": "visualizer.png"
+  },
+  {
+    "id": 3,
+    "name": "Music Visualiser",
+    "description": "A simple music Visualiser which has basic play/pause & seek functionalities",
+    "imageName": "visualizer.png"
+  },
+  {
+    "id": 4,
+    "name": "Music Visualiser",
+    "description": "A simple music Visualiser which has basic play/pause & seek functionalities",
+    "imageName": "visualizer.png"
+  },
+  {
+    "id": 5,
+    "name": "Music Visualiser",
+    "description": "A simple music Visualiser which has basic play/pause & seek functionalities",
+    "imageName": "visualizer.png"
+  },
+  {
+    "id": 6,
+    "name": "Music Visualiser",
+    "description": "A simple music Visualiser which has basic play/pause & seek functionalities",
+    "imageName": "visualizer.png"
+  }
+]

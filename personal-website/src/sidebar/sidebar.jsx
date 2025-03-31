@@ -4,8 +4,8 @@ export default function Sidebar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="flex" id="sidebar">
-      <aside className="fixed top-0 left-0">
+    <div className="flex fixed top-0 left-0" id="sidebar">
+      <aside className="">
         <div
           className={`${
             open ? "w-40" : "w-full"
