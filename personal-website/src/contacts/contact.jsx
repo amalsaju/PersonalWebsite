@@ -36,17 +36,17 @@ export default function Contact() {
     e.target.reset();
   };
   return (
-    <div className="flex flex-col ml-22 h-screen justify-center">
-      <div>
-        <h1 className="font-bold leading-snug tracking-tight mb-3 text-gray-200 w-full text-3xl md:mb-10 md:ml-20 lg:max-w-3xl lg:text-5xl">
+    <div className="flex flex-col h-screen justify-center bg-primary-color">
+      <div className="ml-20">
+        <h1 className="font-bold leading-snug tracking-tight mb-3 text-text-color w-full text-3xl md:mb-10 md:ml-20 lg:max-w-3xl lg:text-5xl">
           Contact Me
         </h1>
       </div>
-      <form className="flex flex-col pr-5 gap-3" onSubmit={sendEmail}>
+      <form className="flex flex-col ml-20 mr-5 gap-3" onSubmit={sendEmail}>
         <div className="md:flex ">
           <div className="md:w-1/5">
             <label
-              className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+              className="block text-text-color font-bold md:text-right mb-1 md:mb-0 pr-4"
               htmlFor="inline-full-name"
             >
               Name
@@ -54,7 +54,8 @@ export default function Contact() {
           </div>
           <div className="md:w-1/3">
             <input
-              className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+              required
+              className="bg-text-color appearance-none border-2 border-secondary-alt-color rounded-md w-full py-2 px-4 text-primary-color leading-tight focus:outline-none focus:bg-white focus:border-highlight-color"
               id="inline-full-name"
               type="text"
               name="user_name"
@@ -64,7 +65,7 @@ export default function Contact() {
         <div className="md:flex ">
           <div className="md:w-1/5">
             <label
-              className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+              className="block text-text-color font-bold md:text-right mb-1 md:mb-0 pr-4"
               htmlFor="email"
             >
               Email
@@ -72,7 +73,8 @@ export default function Contact() {
           </div>
           <div className="md:w-1/3">
             <input
-              className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+              required
+              className="bg-gray-200 appearance-none border-2 border-secondary-alt-color rounded-md w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-highlight-color"
               id="email"
               type="email"
               name="user_email"
@@ -82,7 +84,7 @@ export default function Contact() {
         <div className="md:flex ">
           <div className="md:w-1/5">
             <label
-              className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+              className="block text-text-color font-bold md:text-right mb-1 md:mb-0 pr-4"
               htmlFor="message"
             >
               Message
@@ -90,8 +92,9 @@ export default function Contact() {
           </div>
           <div className="md:w-1/3">
             <textarea
+              required
               rows="7"
-              className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+              className="bg-text-color appearance-none border-2 border-secondary-alt-color rounded-md w-full py-2 px-4 text-primary leading-tight focus:outline-none focus:bg-white focus:border-highlight-color"
               id="message"
               name="message"
             ></textarea>
@@ -104,7 +107,7 @@ export default function Contact() {
             <button
               value="Send"
               disabled={isSubmitting}
-              className="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+              className="shadow text-text-color border-2 border-highlight-color hover:border-primary-color hover:text-primary-color hover:bg-highlight-color focus:shadow-outline focus:outline-none font-bold py-2 px-4 rounded-md"
               type="submit"
             >
               Submit

@@ -4,25 +4,27 @@ export default function Sidebar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="flex fixed top-0 left-0" id="sidebar">
-      <aside className="">
+    <div className="">
+      <aside className="fixed" id="sidebar">
         <div
           className={`${
-            open ? "w-40" : "w-full"
-          } flex flex-col h-screen p-3 bg-gray-800 shadow duration-300 `}
+            open ? "w-40" : "w-min"
+          } flex flex-col h-screen p-3 bg-secondary-alt-color shadow duration-300 `}
         >
           <div className="flex items-center h-full">
             <div className="">
               <ul className="">
-                <li className=" p-1 rounded-sm hover:bg-gray-700">
-                  <a href="/" className="flex items-center p-2 space-x-3 rounded-md">
+                <li className=" p-1 rounded-md stroke-text-color text-text-color hover:bg-highlight-color hover:stroke-primary-color hover:text-primary-color">
+                  <a
+                    href="/"
+                    className="flex items-center p-2 space-x-3 rounded-md"
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
-                      stroke="white"
-                      className="size-6"
+                      className=" size-6"
                     >
                       <path
                         strokeLinecap="round"
@@ -30,10 +32,10 @@ export default function Sidebar() {
                         d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
                       />
                     </svg>
-                    {open && <span className="text-gray-100 ">Home</span>}
+                    {open && <span className=" ">Home</span>}
                   </a>
                 </li>
-                <li className=" p-1 rounded-sm hover:bg-gray-700">
+                <li className="p-1 rounded-md stroke-text-color text-text-color hover:bg-highlight-color hover:stroke-primary-color hover:text-primary-color">
                   <a
                     href="/projects"
                     className="flex items-center p-2 space-x-3 rounded-md"
@@ -43,7 +45,6 @@ export default function Sidebar() {
                       fill="none"
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
-                      stroke="white"
                       className="size-6"
                     >
                       <path
@@ -53,10 +54,10 @@ export default function Sidebar() {
                       />
                     </svg>
 
-                    {open && <span className="text-gray-100">Projects</span>}
+                    {open && <span>Projects</span>}
                   </a>
                 </li>
-                <li className="p-1 rounded-sm hover:bg-gray-700">
+                <li className="p-1 rounded-md stroke-text-color text-text-color hover:bg-highlight-color hover:stroke-primary-color hover:text-primary-color">
                   <a
                     href="/contact"
                     className="flex items-center p-2 space-x-3 rounded-md"
@@ -66,7 +67,6 @@ export default function Sidebar() {
                       fill="none"
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
-                      stroke="white"
                       className="size-6"
                     >
                       <path
@@ -76,7 +76,7 @@ export default function Sidebar() {
                       />
                     </svg>
 
-                    {open && <span className="text-gray-100"> Contacts </span>}
+                    {open && <span> Contacts </span>}
                   </a>
                 </li>
                 {/* // TODO
@@ -113,43 +113,42 @@ export default function Sidebar() {
               </ul>
             </div>
           </div>
-          <div
-              className={`flex mb-2  ${open && "align-bottom justify-end" }`}
+          <div className={`flex mb-2  ${open && "align-bottom justify-end"}`}>
+            <button
+              className="items-center p-2 space-x-3 rounded-md stroke-text-color hover:stroke-primary-color hover:bg-highlight-color"
+              onClick={() => setOpen(!open)}
             >
-              <button className="items-center p-2 space-x-3 rounded-md hover:bg-gray-700" onClick={() => setOpen(!open)}>
-                {open ? (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth="1.5"
-                    stroke="currentColor"
-                    className="size-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M8.25 9V5.25A2.25 2.25 0 0 1 10.5 3h6a2.25 2.25 0 0 1 2.25 2.25v13.5A2.25 2.25 0 0 1 16.5 21h-6a2.25 2.25 0 0 1-2.25-2.25V15m-3 0-3-3m0 0 3-3m-3 3H15"
-                    />
-                  </svg>
-                ) : (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth="1.5"
-                    stroke="currentColor"
-                    className="size-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15m3 0 3-3m0 0-3-3m3 3H9"
-                    />
-                  </svg>
-                )}
-              </button>
-            </div>
+              {open ? (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M8.25 9V5.25A2.25 2.25 0 0 1 10.5 3h6a2.25 2.25 0 0 1 2.25 2.25v13.5A2.25 2.25 0 0 1 16.5 21h-6a2.25 2.25 0 0 1-2.25-2.25V15m-3 0-3-3m0 0 3-3m-3 3H15"
+                  />
+                </svg>
+              ) : (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15m3 0 3-3m0 0-3-3m3 3H9"
+                  />
+                </svg>
+              )}
+            </button>
+          </div>
         </div>
       </aside>
     </div>
