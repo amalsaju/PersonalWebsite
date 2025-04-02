@@ -2,6 +2,7 @@
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
 @theme {
+  /* Dark color theme*/
   --color-primary-dark: #262a33;
   --color-highlight-dark: #43ffaf;
   /* --caret-dark: #43ffaf; */
@@ -11,6 +12,7 @@
   --color-error-dark: #ff5f5f;
   --color-error-alt-dark: #d22a2a;
 
+  /* Light color theme */
   --color-primary-light: #ffffff;
   --color-highlight-light: #212b43;
   /* --caret-col-light: #212b43*/

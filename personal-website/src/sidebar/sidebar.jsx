@@ -14,7 +14,7 @@ export default function Sidebar() {
           <div className="flex items-center h-full">
             <div className="">
               <ul className="">
-                <li className=" p-1 rounded-md stroke-text-light dark:stroke-text-dark text-text-light dark:text-text-dark hover:bg-highlight-light dark:hover:bg-highlight-dark hover:stroke-primary-light dark:hover:stroke-primary-dark hover:text-primary-light dark:hover:text-primary-dark">
+                <li className="p-1 rounded-md stroke-text-light dark:stroke-text-dark text-text-light dark:text-text-dark hover:bg-highlight-light dark:hover:bg-highlight-dark hover:stroke-primary-light dark:hover:stroke-primary-dark hover:text-primary-light dark:hover:text-primary-dark">
                   <a
                     href="/"
                     className="flex items-center p-2 space-x-3 rounded-md"

@@ -107,7 +107,7 @@ export default function Contact() {
             <button
               value="Send"
               disabled={isSubmitting}
-              className="shadow text-text-light dark:text-text-dark border-2 border-highlight-light dark:border-highlight-dark hover:border-primary-light dark:hover:border-primary-dark hover:text-primary-light dark:hover:text-primary-dark hover:bg-highlight-light dark:hover:bg-highlight-dark focus:shadow-outline focus:outline-none font-bold py-2 px-4 rounded-md"
+              className="shadow text-text-light dark:text-text-dark border-2 border-highlight-light dark:border-secondary-dark hover:border-primary-light dark:hover:border-primary-dark hover:text-primary-light dark:hover:text-primary-dark hover:bg-highlight-light dark:hover:bg-highlight-dark focus:shadow-outline focus:outline-none font-bold py-2 px-4 rounded-md"
               type="submit"
             >
               Submit
