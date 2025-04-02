@@ -36,9 +36,9 @@ export default function Contact() {
     e.target.reset();
   };
   return (
-    <div className="flex flex-col h-screen justify-center bg-primary-color">
+    <div className="flex flex-col h-screen justify-center bg-primary-light dark:bg-primary-dark">
       <div className="ml-20">
-        <h1 className="font-bold leading-snug tracking-tight mb-3 text-text-color w-full text-3xl md:mb-10 md:ml-20 lg:max-w-3xl lg:text-5xl">
+        <h1 className="font-bold leading-snug tracking-tight mb-3 text-text-light dark:text-text-dark w-full text-3xl md:mb-10 md:ml-20 lg:max-w-3xl lg:text-5xl">
           Contact Me
         </h1>
       </div>
@@ -46,7 +46,7 @@ export default function Contact() {
         <div className="md:flex ">
           <div className="md:w-1/5">
             <label
-              className="block text-text-color font-bold md:text-right mb-1 md:mb-0 pr-4"
+              className="block text-text-light dark:text-text-dark font-bold md:text-right mb-1 md:mb-0 pr-4"
               htmlFor="inline-full-name"
             >
               Name
@@ -55,7 +55,7 @@ export default function Contact() {
           <div className="md:w-1/3">
             <input
               required
-              className="bg-text-color appearance-none border-2 border-secondary-alt-color rounded-md w-full py-2 px-4 text-primary-color leading-tight focus:outline-none focus:bg-white focus:border-highlight-color"
+              className="bg-secondary-alt-light dark:bg-text-dark appearance-none border-2 border-secondary-alt-light dark:border-secondary-alt-dark rounded-md w-full py-2 px-4 text-text-light dark:text-primary-dark leading-tight focus:outline-none focus:border-highlight-light dark:focus:border-highlight-dark"
               id="inline-full-name"
               type="text"
               name="user_name"
@@ -65,7 +65,7 @@ export default function Contact() {
         <div className="md:flex ">
           <div className="md:w-1/5">
             <label
-              className="block text-text-color font-bold md:text-right mb-1 md:mb-0 pr-4"
+              className="block text-text-light dark:text-text-dark font-bold md:text-right mb-1 md:mb-0 pr-4"
               htmlFor="email"
             >
               Email
@@ -74,7 +74,7 @@ export default function Contact() {
           <div className="md:w-1/3">
             <input
               required
-              className="bg-gray-200 appearance-none border-2 border-secondary-alt-color rounded-md w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-highlight-color"
+              className="bg-secondary-alt-light dark:bg-text-dark appearance-none border-2 border-secondary-alt-light dark:border-secondary-alt-dark rounded-md w-full py-2 px-4 text-text-light dark:text-primary-dark leading-tight focus:outline-none focus:border-highlight-light dark:focus:border-highlight-dark"
               id="email"
               type="email"
               name="user_email"
@@ -84,7 +84,7 @@ export default function Contact() {
         <div className="md:flex ">
           <div className="md:w-1/5">
             <label
-              className="block text-text-color font-bold md:text-right mb-1 md:mb-0 pr-4"
+              className="block text-text-light dark:text-text-dark font-bold md:text-right mb-1 md:mb-0 pr-4"
               htmlFor="message"
             >
               Message
@@ -94,7 +94,7 @@ export default function Contact() {
             <textarea
               required
               rows="7"
-              className="bg-text-color appearance-none border-2 border-secondary-alt-color rounded-md w-full py-2 px-4 text-primary leading-tight focus:outline-none focus:bg-white focus:border-highlight-color"
+              className="bg-secondary-alt-light dark:bg-text-dark appearance-none border-2 border-secondary-alt-light dark:border-secondary-alt-dark rounded-md w-full py-2 px-4 text-text-light dark:text-primary-dark leading-tight focus:outline-none focus:border-highlight-light dark:focus:border-highlight-dark"
               id="message"
               name="message"
             ></textarea>
@@ -107,7 +107,7 @@ export default function Contact() {
             <button
               value="Send"
               disabled={isSubmitting}
-              className="shadow text-text-color border-2 border-highlight-color hover:border-primary-color hover:text-primary-color hover:bg-highlight-color focus:shadow-outline focus:outline-none font-bold py-2 px-4 rounded-md"
+              className="shadow text-text-light dark:text-text-dark border-2 border-highlight-light dark:border-highlight-dark hover:border-primary-light dark:hover:border-primary-dark hover:text-primary-light dark:hover:text-primary-dark hover:bg-highlight-light dark:hover:bg-highlight-dark focus:shadow-outline focus:outline-none font-bold py-2 px-4 rounded-md"
               type="submit"
             >
               Submit

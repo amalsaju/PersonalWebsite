@@ -9,12 +9,12 @@ export default function Sidebar() {
         <div
           className={`${
             open ? "w-40" : "w-min"
-          } flex flex-col h-screen p-3 bg-secondary-alt-color shadow duration-300 `}
+          } flex flex-col h-screen p-3 bg-secondary-alt-light dark:bg-secondary-alt-dark shadow duration-300 `}
         >
           <div className="flex items-center h-full">
             <div className="">
               <ul className="">
-                <li className=" p-1 rounded-md stroke-text-color text-text-color hover:bg-highlight-color hover:stroke-primary-color hover:text-primary-color">
+                <li className=" p-1 rounded-md stroke-text-light dark:stroke-text-dark text-text-light dark:text-text-dark hover:bg-highlight-light dark:hover:bg-highlight-dark hover:stroke-primary-light dark:hover:stroke-primary-dark hover:text-primary-light dark:hover:text-primary-dark">
                   <a
                     href="/"
                     className="flex items-center p-2 space-x-3 rounded-md"
@@ -35,7 +35,7 @@ export default function Sidebar() {
                     {open && <span className=" ">Home</span>}
                   </a>
                 </li>
-                <li className="p-1 rounded-md stroke-text-color text-text-color hover:bg-highlight-color hover:stroke-primary-color hover:text-primary-color">
+                <li className="p-1 rounded-md stroke-text-light dark:stroke-text-dark text-text-light dark:text-text-dark hover:bg-highlight-light dark:hover:bg-highlight-dark hover:stroke-primary-light dark:hover:stroke-primary-dark hover:text-primary-light dark:hover:text-primary-dark">
                   <a
                     href="/projects"
                     className="flex items-center p-2 space-x-3 rounded-md"
@@ -57,7 +57,7 @@ export default function Sidebar() {
                     {open && <span>Projects</span>}
                   </a>
                 </li>
-                <li className="p-1 rounded-md stroke-text-color text-text-color hover:bg-highlight-color hover:stroke-primary-color hover:text-primary-color">
+                <li className="p-1 rounded-md stroke-text-light dark:stroke-text-dark text-text-light dark:text-text-dark hover:bg-highlight-light dark:hover:bg-highlight-dark hover:stroke-primary-light dark:hover:stroke-primary-dark hover:text-primary-light dark:hover:text-primary-dark">
                   <a
                     href="/contact"
                     className="flex items-center p-2 space-x-3 rounded-md"
@@ -115,7 +115,7 @@ export default function Sidebar() {
           </div>
           <div className={`flex mb-2  ${open && "align-bottom justify-end"}`}>
             <button
-              className="items-center p-2 space-x-3 rounded-md stroke-text-color hover:stroke-primary-color hover:bg-highlight-color"
+              className="items-center p-2 space-x-3 rounded-md stroke-text-light dark:stroke-text-dark hover:stroke-primary-light dark:hover:stroke-primary-dark  hover:bg-highlight-light dark:hover:bg-highlight-dark"
               onClick={() => setOpen(!open)}
             >
               {open ? (
