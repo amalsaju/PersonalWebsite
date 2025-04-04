@@ -13,11 +13,11 @@ export default function ProjectCard({ name, description, imageName }) {
         <p className="mb-3 font-normal text-text-light dark:text-text-dark">
           {description}
         </p>
-        <button className="shadow text-text-light dark:text-text-dark border-2 border-highlight-light dark:border-secondary-dark hover:border-primary-light dark:hover:border-primary-dark hover:text-primary-light dark:hover:text-primary-dark hover:bg-highlight-light dark:hover:bg-highlight-dark focus:shadow-outline focus:outline-none font-bold py-2 px-4 rounded-md stroke-text-text-light dark:stroke-text-text-dark">
+        <button className="shadow text-text-light dark:text-text-dark border-2 border-highlight-light dark:border-secondary-dark hover:border-highlight-light dark:hover:border-highlight-dark hover:text-primary-light dark:hover:text-primary-dark hover:bg-highlight-light dark:hover:bg-highlight-dark focus:shadow-outline focus:outline-none font-bold py-2 px-4 rounded-md stroke-text-light dark:stroke-text-dark hover:stroke-primary-light dark:hover:stroke-primary-dark">
           <div className="flex">
             <span>Read more</span>
             <svg
-              className="rtl:rotate-180 w-3.5 ms-2 h-[1lh] stroke-text-light dark:stroke-text-dark"
+              className="rtl:rotate-180 w-3.5 ms-2 h-[1lh] "
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

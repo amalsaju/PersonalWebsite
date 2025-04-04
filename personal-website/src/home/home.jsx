@@ -26,8 +26,7 @@ export default function Home() {
             I'm passionate about programming and making stuff. I try to make
             applications and small games whenever I can. 
             <br /> <br />
-             I also like
-            working out.
+          Currently working on a music visualiser in C++.
           </div>
         </div>
         <div className="flex w-full justify-center md:justify-start gap-2">
