@@ -17,7 +17,7 @@ export default function Sidebar() {
                 <li className="p-1 rounded-md stroke-text-light dark:stroke-text-dark text-text-light dark:text-text-dark hover:bg-highlight-light dark:hover:bg-highlight-dark hover:stroke-primary-light dark:hover:stroke-primary-dark hover:text-primary-light dark:hover:text-primary-dark">
                   <a
                     href="/"
-                    className="flex items-center p-2 space-x-3 rounded-md"
+                    className="flex items-center p-2 space-x-3 rounded-md h-[1.5lh]"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ export default function Sidebar() {
                 <li className="p-1 rounded-md stroke-text-light dark:stroke-text-dark text-text-light dark:text-text-dark hover:bg-highlight-light dark:hover:bg-highlight-dark hover:stroke-primary-light dark:hover:stroke-primary-dark hover:text-primary-light dark:hover:text-primary-dark">
                   <a
                     href="/projects"
-                    className="flex items-center p-2 space-x-3 rounded-md"
+                    className="flex items-center p-2 space-x-3 rounded-md h-[1.5lh]"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@ export default function Sidebar() {
                 <li className="p-1 rounded-md stroke-text-light dark:stroke-text-dark text-text-light dark:text-text-dark hover:bg-highlight-light dark:hover:bg-highlight-dark hover:stroke-primary-light dark:hover:stroke-primary-dark hover:text-primary-light dark:hover:text-primary-dark">
                   <a
                     href="/contact"
-                    className="flex items-center p-2 space-x-3 rounded-md"
+                    className="flex items-center p-2 space-x-3 rounded-md h-[1.5lh]"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
