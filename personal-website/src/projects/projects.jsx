@@ -9,7 +9,7 @@ export default function Projects() {
           Projects
         </h1>
       </div>
-      <div className="flex flex-col pl-25 pr-10 items-end gap-5 bg-primary-light dark:bg-primary-dark md:grid md:grid-cols-3 md:justify-items-center">
+      <div className="flex flex-col pl-25 pr-10 items-end gap-15 bg-primary-light dark:bg-primary-dark md:grid md:grid-cols-4 md:justify-items-center">
         {data.map((item) => (
           <ProjectCard
             key={item.id}
