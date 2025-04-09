@@ -24,9 +24,19 @@ export default function Home() {
         <div className="flex w-full font-bold justify-center  text-text-light dark:text-text-dark text-md md:justify-start lg:max-w-xl lg:text-xl">
           <div className="px-15 text-center md:pl-0 md:p-5 md:text-start">
             I'm passionate about programming and making stuff. I try to make
-            applications and small games whenever I can. 
+            applications and small games whenever I can.
             <br /> <br />
-          Currently working on a music visualiser in C++.
+            Current project:{" "}
+            <span className="">
+              {" "}
+              <a
+                href="/projects"
+                className="font-bold text-text-light underline dark:text-text-dark text-md lg:max-w-xl lg:text-xl"
+              >
+                {" "}
+                Music Visualiser
+              </a>
+            </span>
           </div>
         </div>
         <div className="flex w-full justify-center md:justify-start gap-2">
@@ -35,7 +45,7 @@ export default function Home() {
            border-2 "
           >
             <span>
-              <FontAwesomeIcon icon={faLinkedin}  className="fa-shake"/>
+              <FontAwesomeIcon icon={faLinkedin} className="fa-shake" />
             </span>
             <a
               href="https://www.linkedin.com/in/amal-saju-kalarickal/"
@@ -49,7 +59,7 @@ export default function Home() {
            border-2"
           >
             <span>
-              <FontAwesomeIcon icon={faGithub} className="fa-bounce"/>
+              <FontAwesomeIcon icon={faGithub} className="fa-bounce" />
             </span>
             <div className="">
               <a href="https://github.com/amalsaju/Amalsaju" target="_blank">
