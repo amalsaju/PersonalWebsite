@@ -52,7 +52,7 @@ export default function Contact() {
               Name
             </label>
           </div>
-          <div className="md:w-1/3">
+          <div className="md:w-2/3 lg:w-2/3 xl:w-1/3">
             <input
               required
               className="bg-secondary-alt-light dark:bg-text-dark appearance-none border-2 border-secondary-alt-light dark:border-secondary-alt-dark rounded-md w-full py-2 px-4 text-text-light dark:text-primary-dark leading-tight focus:outline-none focus:border-highlight-light dark:focus:border-highlight-dark"
@@ -63,7 +63,7 @@ export default function Contact() {
           </div>
         </div>
         <div className="md:flex ">
-          <div className="md:w-1/5">
+          <div className="md:w-1/5 ">
             <label
               className="block text-text-light dark:text-text-dark font-bold md:text-right mb-1 md:mb-0 pr-4"
               htmlFor="email"
@@ -71,7 +71,7 @@ export default function Contact() {
               Email
             </label>
           </div>
-          <div className="md:w-1/3">
+          <div className="md:w-2/3 lg:w-2/3 xl:w-1/3">
             <input
               required
               className="bg-secondary-alt-light dark:bg-text-dark appearance-none border-2 border-secondary-alt-light dark:border-secondary-alt-dark rounded-md w-full py-2 px-4 text-text-light dark:text-primary-dark leading-tight focus:outline-none focus:border-highlight-light dark:focus:border-highlight-dark"
@@ -90,7 +90,7 @@ export default function Contact() {
               Message
             </label>
           </div>
-          <div className="md:w-1/3">
+          <div className="md:w-2/3 lg:w-2/3 xl:w-1/3">
             <textarea
               required
               rows="7"

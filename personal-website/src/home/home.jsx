@@ -4,7 +4,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center bg-primary-light dark:bg-primary-dark text-text-light dark:text-text-dark justify-center w-full h-screen md:flex-row md:justify-start ">
+    <div className="flex flex-col items-center overflow-hidden bg-primary-light dark:bg-primary-dark text-text-light dark:text-text-dark justify-center w-full h-screen md:flex-row md:justify-start ">
       <div className="flex w-full justify-center ml-10 md:m-0 md:w-1/2">
         <div className="rounded-full h-50 w-50 bg-amber-500 ">
           {/* avatar here */}
