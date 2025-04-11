@@ -37,7 +37,7 @@ function App() {
   };
   return (
     <>
-      {init && (
+      {/* {init && (
         <Particles
           id="tsparticles"
           particlesLoaded={particlesLoaded}
@@ -561,7 +561,7 @@ function App() {
   }
 }}
         />
-      )}
+      )} */}
 
       <Sidebar />
       <Routes>

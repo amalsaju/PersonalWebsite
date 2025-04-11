@@ -21,17 +21,19 @@ export default function Home() {
             Software Engineer
           </h3>
         </div>
-        <div className="flex w-full font-bold justify-center  text-text-light dark:text-text-dark text-md md:justify-start lg:max-w-xl lg:text-xl">
+        <div className="flex w-full font-bold justify-center  text-text-light dark:text-text-dark text-md md:justify-start lg:max-w-xl lg:text-lg">
           <div className="px-15 text-center md:pl-0 md:p-5 md:text-start">
-            I'm passionate about programming and making stuff. I try to make
-            applications and small games whenever I can.
+            Hi, I’m someone who really enjoys coding.
+            In my free time, you’ll probably find me tinkering with small apps or making fun little games.
+           <br /> 
+            Just here to build cool stuff and learn along the way!
             <br /> <br />
             Current project:{" "}
             <span className="">
               {" "}
               <a
                 href="/projects"
-                className="font-bold text-text-light underline dark:text-text-dark text-md lg:max-w-xl lg:text-xl"
+                className="font-bold text-text-light underline dark:text-text-dark text-md lg:max-w-xl lg:text-lg"
               >
                 {" "}
                 Music Visualiser
