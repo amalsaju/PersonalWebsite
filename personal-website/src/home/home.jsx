@@ -4,13 +4,13 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center overflow-hidden bg-primary-light dark:bg-primary-dark text-text-light dark:text-text-dark justify-center w-full h-screen md:flex-row md:justify-start ">
-      <div className="flex w-full justify-center ml-10 md:m-0 md:w-1/2">
+    <div className="flex flex-col items-center overflow-hidden bg-primary-light dark:bg-primary-dark text-text-light dark:text-text-dark justify-center w-full h-screen md:flex-row md:justify-start -z-1 ">
+      <div className="flex w-full justify-center ml-10 md:m-0 md:w-1/2 z-10">
         <div className="rounded-full h-50 w-50 bg-amber-500 ">
           {/* avatar here */}
         </div>
       </div>
-      <div className="w-full flex flex-col pt-[7vh] items-center ml-10 mt-5 md:w-2/3 md:items-start">
+      <div className="w-full flex flex-col pt-[7vh] items-center ml-10 mt-5 md:w-2/3 md:items-start z-10">
         <div>
           <h1 className="font-bold text-text-light dark:text-text-dark text-2xl lg:max-w-3xl lg:text-5xl">
             Hi, I'm Amal

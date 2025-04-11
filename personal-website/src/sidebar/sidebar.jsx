@@ -5,7 +5,7 @@ export default function Sidebar() {
 
   return (
     <div className="">
-      <aside className="fixed" id="sidebar">
+      <aside id="sidebar" className=" fixed z-20">
         <div
           className={`${
             open ? "w-40" : "w-min"
@@ -15,25 +15,25 @@ export default function Sidebar() {
             <div className="">
               <ul className="">
                 <li className="p-1 rounded-md stroke-text-light dark:stroke-text-dark text-text-light dark:text-text-dark hover:bg-highlight-light dark:hover:bg-highlight-dark hover:stroke-primary-light dark:hover:stroke-primary-dark hover:text-primary-light dark:hover:text-primary-dark">
-                  <a
-                    href="/"
-                    className="flex items-center p-2 space-x-3 rounded-md h-[1.5lh]"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth="1.5"
-                      className=" size-6"
+                    <a
+                      href="/"
+                      className="flex items-center p-2 space-x-3 rounded-md h-[1.5lh]"
                     >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
-                      />
-                    </svg>
-                    {open && <span className=" ">Home</span>}
-                  </a>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        className=" size-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+                        />
+                      </svg>
+                      {open && <span className=" ">Home</span>}
+                    </a>
                 </li>
                 <li className="p-1 rounded-md stroke-text-light dark:stroke-text-dark text-text-light dark:text-text-dark hover:bg-highlight-light dark:hover:bg-highlight-dark hover:stroke-primary-light dark:hover:stroke-primary-dark hover:text-primary-light dark:hover:text-primary-dark">
                   <a
