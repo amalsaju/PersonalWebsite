@@ -3,36 +3,48 @@
     "id": 1,
     "name": "Music Visualiser",
     "description": "A simple music Visualiser which has basic play/pause & seek functionalities",
-    "imageName": "visualizer.png"
+    "imageName": "visualizer.png",
+    "type": "desktop",
+    "tag": "C++, Raylib" 
   },
   {
     "id": 2,
-    "name": "Music Visualiser",
-    "description": "A simple music Visualiser which has basic play/pause & seek functionalities",
-    "imageName": "visualizer.png"
+    "name": "Dawn of Chaos",
+    "description": "A 3d game made for ludum dare",
+    "imageName": "visualizer.png",
+    "type": "game",
+    "tag": "Unity, blender, 3d"
   },
   {
     "id": 3,
-    "name": "Music Visualiser",
-    "description": "A simple music Visualiser which has basic play/pause & seek functionalities",
-    "imageName": "visualizer.png"
+    "name": "Resume Website",
+    "description": "This resume website",
+    "imageName": "visualizer.png",
+    "type": "web",
+    "tag": "HTML, CSS, JS, Node, React"
   },
   {
     "id": 4,
-    "name": "Music Visualiser",
-    "description": "A simple music Visualiser which has basic play/pause & seek functionalities",
-    "imageName": "visualizer.png"
+    "name": "The witch's Loop",
+    "description": "A 2d game made in Unity for ludum dare",
+    "imageName": "visualizer.png",
+    "type": "game",
+    "tag": "Unity, 2d"
   },
   {
     "id": 5,
-    "name": "Music Visualiser",
-    "description": "A simple music Visualiser which has basic play/pause & seek functionalities",
-    "imageName": "visualizer.png"
+    "name": "Test",
+    "description": "A test item",
+    "imageName": "visualizer.png",
+    "type":"web",
+    "tag": "HTML, CSS, JS, Node, Express"
   },
   {
     "id": 6,
-    "name": "Music Visualiser",
-    "description": "A simple music Visualiser which has basic play/pause & seek functionalities",
-    "imageName": "visualizer.png"
+    "name": "The boring project",
+    "description": "A simple mining game made for Ludum Dare 57",
+    "imageName": "visualizer.png",
+    "type": "game",
+    "tag": "Godot, 2d"
   }
 ]
