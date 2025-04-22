@@ -46,7 +46,7 @@ export default function Projects() {
           </select>
         </div>
       </div>
-      <div className="flex flex-col pl-25 pr-10 items-end gap-15 bg-primary-light dark:bg-primary-dark md:grid md:grid-cols-4 md:justify-items-center">
+      <div className="flex flex-col pl-25 pr-10 items-center justify-items-center gap-15 bg-primary-light dark:bg-primary-dark sm:grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
         {filteredMap.map((item) => (
           <ProjectCard
             key={item.id}
