@@ -36,7 +36,7 @@ export default function Home() {
                 className="font-bold text-text-light underline dark:text-text-dark text-md lg:max-w-xl lg:text-lg"
               >
                 {" "}
-                Music Visualiser
+                Game - The Boring Project
               </a>
             </span>
           </div>
