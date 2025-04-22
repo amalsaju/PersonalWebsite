@@ -13,7 +13,6 @@ export default function Projects() {
     console.log(value);
   }
 
-
   const filteredMap = data.filter(item => {
     if (filterOption == "all") {
       return item;
@@ -27,8 +26,6 @@ export default function Projects() {
 
       return item.type.toLowerCase() == "desktop".toLowerCase();
     }
-
-
   })
 
   return (
@@ -38,20 +35,14 @@ export default function Projects() {
           Projects
         </h1>
       </div>
-      <div className="flex justify-center flex-col gap-2 mb-20">
-        <div className="flex justify-center">
-          Search bar here
-        </div>
-        <div className="flex justify-center">
-          Filter options here
-        </div>
-        <div className="flex justify-center">
-          Type:
-          <select onChange={e => setFilterOption(e.target.value)} name="type" id="type">
-            <option value="all">All</option>
-            <option value="game">Games</option>
-            <option value="web">Web</option>
-            <option value="desktop">Desktop</option>
+      <div className="flex justify-center flex-col gap-2 mb-5">
+        <div className="flex justify-start ml-30 mt-5 text-text-light dark:text-text-dark ">
+          Filter :  
+          <select className="ml-2 border border-primary-light border-1 rounded-md" onChange={e => setFilterOption(e.target.value)} name="type" id="type">
+            <option className="text-text-light" value="all">All</option>
+            <option className="text-text-light" value="web">Web</option>
+            <option className="text-text-light" value="desktop">Desktop</option>
+            <option className="text-text-light" value="game">Games</option>
           </select>
         </div>
       </div>
