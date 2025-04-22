@@ -24,7 +24,7 @@ export default function Home() {
         <div className="flex w-full font-bold justify-center  text-text-light dark:text-text-dark text-md md:justify-start lg:max-w-xl lg:text-lg">
           <div className="px-15 text-center md:pl-0 md:p-5 md:text-start">
             Hi, I’m someone who really enjoys coding.
-            In my free time, you’ll probably find me tinkering with small apps or making fun little games.
+            In my free time, you’ll probably find me tinkering with web apps in <span className="bg-highlight-light dark:bg-highlight-dark text-primary-light dark:text-primary-dark p-1 ">React</span> or making fun little games.
            <br /> 
             Just here to build cool stuff and learn along the way!
             <br /> <br />
