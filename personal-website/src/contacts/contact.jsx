@@ -36,13 +36,18 @@ export default function Contact() {
     e.target.reset();
   };
   return (
-    <div className="flex flex-col h-screen justify-center bg-primary-light dark:bg-primary-dark">
-      <div className="ml-20">
-        <h1 className="font-bold leading-snug tracking-tight mb-3 text-text-light dark:text-text-dark w-full text-3xl md:mb-10 md:ml-20 lg:max-w-3xl lg:text-5xl">
-          Contact Me
-        </h1>
-      </div>
+    <div className="flex flex-col h-screen justify-center bg-primary-light dark:bg-primary-dark overflow-hidden">
       <form className="flex flex-col ml-20 mr-5 gap-3" onSubmit={sendEmail}>
+        <div className="md:flex">
+          <div className="md:w-1/5">
+          {/* empty div for spacing */}
+          </div>
+          <div className="md:w-2/3 lg:w-2/3 xl:w-1/3">
+            <h1 className="font-bold leading-snug tracking-tight text-text-light dark:text-text-dark text-3xl lg:max-w-3xl 3xl:text-5xl">
+              Contact Me
+            </h1>
+          </div>
+        </div>
         <div className="md:flex ">
           <div className="md:w-1/5">
             <label
