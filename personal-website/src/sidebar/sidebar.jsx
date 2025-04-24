@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router";
 
 export default function Sidebar() {
   const [open, setOpen] = useState(false);
@@ -15,8 +16,8 @@ export default function Sidebar() {
             <div className="">
               <ul className="">
                 <li className="p-1 rounded-md stroke-text-light dark:stroke-text-dark text-text-light dark:text-text-dark hover:bg-highlight-light dark:hover:bg-highlight-dark hover:stroke-primary-light dark:hover:stroke-primary-dark hover:text-primary-light dark:hover:text-primary-dark">
-                    <a
-                      href="/"
+                    <Link
+                      to="/"
                       className="flex items-center p-2 space-x-3 rounded-md h-[1.5lh]"
                     >
                       <svg
@@ -33,11 +34,11 @@ export default function Sidebar() {
                         />
                       </svg>
                       {open && <span className=" ">Home</span>}
-                    </a>
+                    </Link>
                 </li>
                 <li className="p-1 rounded-md stroke-text-light dark:stroke-text-dark text-text-light dark:text-text-dark hover:bg-highlight-light dark:hover:bg-highlight-dark hover:stroke-primary-light dark:hover:stroke-primary-dark hover:text-primary-light dark:hover:text-primary-dark">
-                  <a
-                    href="/projects"
+                  <Link
+                    to="/projects"
                     className="flex items-center p-2 space-x-3 rounded-md h-[1.5lh]"
                   >
                     <svg
@@ -55,11 +56,11 @@ export default function Sidebar() {
                     </svg>
 
                     {open && <span>Projects</span>}
-                  </a>
+                  </Link>
                 </li>
                 <li className="p-1 rounded-md stroke-text-light dark:stroke-text-dark text-text-light dark:text-text-dark hover:bg-highlight-light dark:hover:bg-highlight-dark hover:stroke-primary-light dark:hover:stroke-primary-dark hover:text-primary-light dark:hover:text-primary-dark">
-                  <a
-                    href="/contact"
+                  <Link
+                    to="/contact"
                     className="flex items-center p-2 space-x-3 rounded-md h-[1.5lh]"
                   >
                     <svg
@@ -77,7 +78,7 @@ export default function Sidebar() {
                     </svg>
 
                     {open && <span> Contacts </span>}
-                  </a>
+                  </Link>
                 </li>
                 {/* // TODO
                                 // Blog section for the future ?

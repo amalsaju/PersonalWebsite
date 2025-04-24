@@ -1,4 +1,4 @@
-export default function ProjectCard({ name, description, imageName }) {
+export default function ProjectCard({ name, summary, imageName }) {
   return (
     <div className="mb-5 bg-secondary-alt-light dark:bg-secondary-alt-dark border-2 border-highlight-light dark:border-secondary-dark rounded-lg shadow-sm h-80 w-48 overflow-hidden md:w-68 md:h-98">
       <a href="#" >
@@ -16,7 +16,7 @@ export default function ProjectCard({ name, description, imageName }) {
           <div className="grid">
             <div className="font-normal text-text-light dark:text-text-dark ">
               <p className="line-clamp-2 md:line-clamp-3">
-                {description}
+                {summary}
               </p>
             </div>
           </div>

@@ -2,49 +2,78 @@
   {
     "id": 1,
     "name": "Music Visualiser",
-    "description": "A simple music Visualiser which has basic play/pause & seek functionalities",
+    "summary": "A simple music Visualiser using Raylib",
+    "description": "A music visualiser made in C++ using the Raylib library. It implements basic functionalities such as play, pause and seek. You can also select mulitple files to play the songs in a queue.",
     "imageName": "visualizer.png",
     "type": "desktop",
-    "tag": "C++, Raylib" 
+    "technologies": "C++, Raylib",
+    "link":"https://github.com/amalsaju/music-visualiser",
+    "status":"in progress"
   },
   {
     "id": 2,
-    "name": "Dawn of Chaos",
-    "description": "A 3d game made for ludum dare",
-    "imageName": "visualizer.png",
-    "type": "game",
-    "tag": "Unity, blender, 3d"
-  },
-  {
-    "id": 3,
     "name": "Resume Website",
-    "description": "This resume website",
+    "summary": "This website",
+    "description": "The resume website was built using React with react-router for routing. Tailwind is used for the CSS styling.",
     "imageName": "visualizer.png",
     "type": "web",
-    "tag": "HTML, CSS, JS, Node, React"
+    "technologies": "React, Javascript, tailwind",
+    "link": "https://github.com/amalsaju/PersonalWebsite",
+    "status":"in progress"
   },
-  {
+    {
+    "id": 3,
+    "name": "AI Scraper",
+    "summary": "A Property details aggregator using Crawl4AI",
+    "description": "A scraper application to scrape property details and aggregate all the information for easier data analysis",
+    "imageName": "test1.png",
+    "type": "web",
+    "technologies": "python, crawl4Ai",
+    "link": "",
+    "status":"in progress"
+  },
+      {
     "id": 4,
-    "name": "The witch's Loop",
-    "description": "A 2d game made in Unity for ludum dare",
+    "name": "The boring project",
+    "summary": "Game made for Ludum Dare Jam 57",
+    "description": "A game made in godot for LD jam 57. The pixel art was made in aseprite and the game served as an opportunity for me to practise pixel art.",
     "imageName": "visualizer.png",
     "type": "game",
-    "tag": "Unity, 2d"
+    "technologies": "godot, gdscript, aseprite",
+    "link": "",
+    "status":"in progress"
   },
-  {
+      {
     "id": 5,
-    "name": "Test",
-    "description": "A test item",
+    "name": "ButterCup Tide",
+    "summary": "Tide login for a open source password manager",
+    "description": "Tide.org developed a new and secure way for identity management on the internet. As a group of 3, my team implemented this technology in an open source password manager called Buttercup Tide for our internship program.",
     "imageName": "visualizer.png",
-    "type":"web",
-    "tag": "HTML, CSS, JS, Node, Express"
+    "type": "desktop",
+    "technologies": "electron, react, javascript",
+    "link": "https://github.com/muddykat-tech/buttercup-desktop-tide",
+    "status":"completed"
   },
   {
     "id": 6,
-    "name": "The boring project",
-    "description": "A simple mining game made for Ludum Dare 57",
+    "name": "Interview Transcription",
+    "summary": "AI interview transcription service",
+    "description": "Created the backend for an AI powered transcription service using Microsoft Azure AI speech service for a client. The application listens to an interview, converts the speech to text depending on the person. The frontend was made using Microsoft Power Apps and connected to Azure storage where the data was processed using Power Apps Functions. It then called my server end point which converts the data into text and appends the text to a word file. The entire process took less than a minute.",
+    "imageName": "test1.png",
+    "type": "web",
+    "technologies": "Node.js, Azure AI Speech Service, Javascript, Microsoft Power apps",
+    "link": "",
+    "status":"completed"
+  },
+    {
+    "id": 7,
+    "name": "Other games",
+    "summary": "Old games",
+    "description": "These games were made using Unity ages ago. All of them were made for various game jams and then abandoned afterwards. You can check them out in my itch.io page.",
     "imageName": "visualizer.png",
     "type": "game",
-    "tag": "Godot, 2d"
+    "technologies": "Unity, aseprite, inkscape, sfxr, bfxr, audacity",
+    "link": "https://leofiremage.itch.io/",
+    "status":"abandoned"
   }
 ]

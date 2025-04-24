@@ -51,7 +51,7 @@ export default function Projects() {
           <ProjectCard
             key={item.id}
             name={item.name}
-            description={item.description}
+            summary={item.summary}
             imageName={item.imageName}
           />
         ))}

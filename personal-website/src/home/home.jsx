@@ -5,12 +5,12 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
 export default function Home() {
   return (
     <div className="flex flex-col items-center overflow-hidden bg-primary-light dark:bg-primary-dark text-text-light dark:text-text-dark justify-center w-full h-screen md:flex-row md:justify-start -z-1 ">
-      <div className="flex w-full justify-center ml-10 md:m-0 md:w-1/2 z-10">
+      <div className="flex w-full justify-center ml-10 md:m-0 md:ml-10 md:w-1/2 z-10">
         <div className="rounded-full h-50 w-50 bg-amber-500 ">
-          {/* avatar here */}
+          <img className="rounded-full " src={`/images/me_test_1.png`} alt="" />
         </div>
       </div>
-      <div className="w-full flex flex-col pt-[7vh] items-center ml-10 mt-5 md:w-2/3 md:items-start z-10">
+      <div className="w-full flex flex-col pt-[2vh] md:pt-[7vh] items-center ml-10 mt-5 md:w-2/3 md:items-start z-10">
         <div>
           <h1 className="font-bold text-text-light dark:text-text-dark text-2xl lg:max-w-3xl lg:text-5xl">
             Hi, I'm Amal
@@ -25,7 +25,7 @@ export default function Home() {
           <div className="px-15 text-center md:pl-0 md:p-5 md:text-start">
             I really enjoy programming.
             In my free time, you’ll probably find me tinkering with web apps in <span className="bg-highlight-light dark:bg-highlight-dark text-primary-light dark:text-primary-dark p-1 ">React</span> or making fun little games.
-           <br /> 
+            <br />
             Just here to build cool stuff and learn along the way!
             <br /> <br />
             Current project:{" "}
