@@ -22,3 +22,7 @@
   --color-error-light: #f19dac;
   --color-error-alt-light: #f19dac;
 }
+
+.modal::backdrop {
+  background-color: hsl(0 0% 0% / 50%);
+}

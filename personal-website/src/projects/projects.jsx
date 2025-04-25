@@ -37,7 +37,7 @@ export default function Projects() {
       </div>
       <div className="flex justify-center flex-col gap-2 mb-5">
         <div className="flex justify-start ml-30 mt-5 text-text-light dark:text-text-dark ">
-          Filter :  
+          Filter :
           <select className="ml-2 border border-primary-light border-1 rounded-md" onChange={e => setFilterOption(e.target.value)} name="type" id="type">
             <option className="text-text-light" value="all">All</option>
             <option className="text-text-light" value="web">Web</option>
@@ -50,9 +50,7 @@ export default function Projects() {
         {filteredMap.map((item) => (
           <ProjectCard
             key={item.id}
-            name={item.name}
-            summary={item.summary}
-            imageName={item.imageName}
+            item={item}
           />
         ))}
       </div>

@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
+import { Link } from "react-router";
 
 export default function Home() {
   return (
@@ -31,13 +32,13 @@ export default function Home() {
             Current project:{" "}
             <span className="">
               {" "}
-              <a
-                href="/projects"
+              <Link
+                to="/projects"
                 className="font-bold text-text-light underline dark:text-text-dark text-md lg:max-w-xl lg:text-lg"
               >
                 {" "}
                 Game - The Boring Project
-              </a>
+              </Link>
             </span>
           </div>
         </div>
