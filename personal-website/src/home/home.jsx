@@ -47,13 +47,14 @@ export default function Home() {
             className="flex gap-2 bg-highlight-light dark:bg-highlight-dark text-primary-light dark:text-primary-dark p-2 rounded-md
            border-2 "
           >
-            <span>
-              <FontAwesomeIcon icon={faLinkedin} className="fa-shake" />
-            </span>
+
             <a
               href="https://www.linkedin.com/in/amal-saju-kalarickal/"
               target="_blank"
             >
+              <span className="pr-1">
+                <FontAwesomeIcon icon={faLinkedin} className="fa-shake" />
+              </span>
               LinkedIn
             </a>
           </div>
@@ -61,11 +62,12 @@ export default function Home() {
             className="flex gap-2 bg-highlight-light dark:bg-highlight-dark text-primary-light dark:text-primary-dark p-2 rounded-md
            border-2"
           >
-            <span>
-              <FontAwesomeIcon icon={faGithub} className="fa-bounce" />
-            </span>
+
             <div className="">
               <a href="https://github.com/amalsaju/Amalsaju" target="_blank">
+                <span className="pr-1">
+                  <FontAwesomeIcon icon={faGithub} className="fa-bounce" />
+                </span>
                 Github
               </a>
             </div>
