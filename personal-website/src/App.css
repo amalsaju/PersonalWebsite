@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@theme {
+  /* Dark color theme*/
+  --color-primary-dark: #262a33;
+  --color-highlight-dark: #43ffaf;
+  /* --caret-dark: #43ffaf; */
+  --color-secondary-dark: #526777;
+  --color-secondary-alt-dark: #1f232c;
+  --color-text-dark: #e5f7ef;
+  --color-error-dark: #ff5f5f;
+  --color-error-alt-dark: #d22a2a;
+
+  /* Light color theme */
+  --color-primary-light: #f8fcfd;
+  --color-highlight-light: #212b43;
+  /* --caret-col-light: #212b43*/
+  --color-secondary-light: #62cfe6;
+  --color-secondary-alt-light: #ddeff3;
+  --color-text-light: #212b43;
+  --color-error-light: #f19dac;
+  --color-error-alt-light: #f19dac;
+}
+
+.modal::backdrop {
+  background-color: hsl(0 0% 0% / 50%);
+}
