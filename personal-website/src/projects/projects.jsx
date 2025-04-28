@@ -8,11 +8,6 @@ export default function Projects() {
 
   const [filterOption, setFilterOption] = useState('all');
 
-  const handleButtonClick = (value) => {
-    setFilterOption(value);
-    console.log(value);
-  }
-
   const filteredMap = data.filter(item => {
     if (filterOption == "all") {
       return item;

@@ -6,9 +6,9 @@ export default function ProjectCard({ item }) {
 
   return (
     <div className="mb-5 bg-secondary-alt-light dark:bg-secondary-alt-dark border-2 border-highlight-light dark:border-secondary-dark rounded-lg shadow-sm h-80 w-48 overflow-hidden md:w-68 md:h-98">
-      <a href="#" >
-        <img className="rounded-t-lg p-4" src={`/images/${item.imageName}`} alt="" />
-      </a>
+      <div className="h-4/9">
+        <img className="rounded-t-lg p-4 h-full" src={`/images/${item.imageName}`} alt="" />
+      </div>
       <div className="px-5 h-2/3 grid grid-cols-1 auto-rows-fr">
         <div className=" h-3/5 grid">
           <div className="">
