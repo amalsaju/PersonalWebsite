@@ -8,7 +8,8 @@
     "type": "desktop",
     "technologies": "C++, Raylib",
     "link":"https://github.com/amalsaju/music-visualiser",
-    "status":"in progress"
+    "status":"in progress",
+    "imageAltName": "Animated GIF showing my music visualizer application in action"
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "type": "web",
     "technologies": "React, Javascript, tailwind",
     "link": "https://github.com/amalsaju/PersonalWebsite",
-    "status":"in progress"
+    "status":"in progress",
+    "imageAltName":"Animated GIF showing my personal website and its features"
   },
     {
     "id": 3,
@@ -30,7 +32,8 @@
     "type": "web",
     "technologies": "python, crawl4Ai",
     "link": "",
-    "status":"in progress"
+    "status":"in progress",
+    "imageAltName": "No picture is available"
   },
       {
     "id": 4,
@@ -41,7 +44,8 @@
     "type": "game",
     "technologies": "godot, gdscript, aseprite",
     "link": "https://leofiremage.itch.io/the-boring-project",
-    "status":"in progress"
+    "status":"in progress",
+    "imageAltName": "Animated GIF of the game The Boring Project in action"
   },
       {
     "id": 5,
@@ -52,7 +56,8 @@
     "type": "desktop",
     "technologies": "electron, react, javascript",
     "link": "https://github.com/muddykat-tech/buttercup-desktop-tide",
-    "status":"completed"
+    "status":"completed",
+    "imageAltName": "No picture is available"
   },
   {
     "id": 6,
@@ -63,7 +68,8 @@
     "type": "web",
     "technologies": "Node.js, Azure AI Speech Service, Javascript, Microsoft Power apps",
     "link": "",
-    "status":"completed"
+    "status":"completed",
+    "imageAltName":"No picture is available"
   },
     {
     "id": 7,
@@ -74,6 +80,7 @@
     "type": "game",
     "technologies": "Unity, aseprite, inkscape, sfxr, bfxr, audacity",
     "link": "https://leofiremage.itch.io/",
-    "status":"abandoned"
+    "status":"abandoned",
+    "imageAltName": "Animated GIF showing various games created by me"
   }
 ]
