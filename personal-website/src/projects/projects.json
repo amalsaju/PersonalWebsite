@@ -7,7 +7,7 @@
     "imageName": "ascii_art.gif",
     "type": "web",
     "technologies": "Next.js, React, tailwind, node.js",
-    "link": "https://github.com/amalsaju/ascii-art",
+    "link": "https://ascii-art-phi.vercel.app/",
     "status": "v1 completed",
     "imageAltName": "Animated GIF showing my music visualizer application in action"
   },
