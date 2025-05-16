@@ -42,7 +42,7 @@
     "description": "A scraper application to scrape property details and aggregate all the information for easier data analysis. Built for a client.",
     "imageName": "img_not_available.png",
     "type": "web",
-    "technologies": "python, crawl4Ai",
+    "technologies": "Node.js, Playwright",
     "link": "",
     "status": "in progress",
     "imageAltName": "No picture is available"
