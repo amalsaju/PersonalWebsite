@@ -37,8 +37,8 @@
   },
   {
     "id": 4,
-    "name": "AI Scraper",
-    "summary": "A Property details aggregator using Crawl4AI",
+    "name": "Webpage Scraper",
+    "summary": "A Property details aggregator using Playwright",
     "description": "A scraper application to scrape property details and aggregate all the information for easier data analysis. Built for a client.",
     "imageName": "img_not_available.png",
     "type": "web",
