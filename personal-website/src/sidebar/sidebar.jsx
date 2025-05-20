@@ -8,36 +8,35 @@ export default function Sidebar() {
     <div className="">
       <aside id="sidebar" className=" fixed z-20">
         <div
-          className={`${
-            open ? "w-40" : "w-min"
-          } flex flex-col h-screen p-3 bg-secondary-alt-light dark:bg-secondary-alt-dark shadow duration-300 `}
+          className={`${open ? "w-40" : "w-min"
+            } flex flex-col h-screen p-3 bg-secondary-alt-light dark:bg-secondary-alt-dark shadow duration-300 `}
         >
           <div className="flex items-center h-full">
             <div className="">
               <ul className="">
                 <li className="p-1 rounded-md stroke-text-light dark:stroke-text-dark text-text-light dark:text-text-dark hover:bg-highlight-light dark:hover:bg-highlight-dark hover:stroke-primary-light dark:hover:stroke-primary-dark hover:text-primary-light dark:hover:text-primary-dark">
-                    <Link
-                      to="/"
-                      className="flex items-center p-2 space-x-3 rounded-md h-[1.5lh]"
+                  <Link aria-label="home"
+                    to="/"
+                    className="flex items-center p-2 space-x-3 rounded-md h-[1.5lh]"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      className=" size-6"
                     >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth="1.5"
-                        className=" size-6"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
-                        />
-                      </svg>
-                      {open && <span className=" ">Home</span>}
-                    </Link>
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+                      />
+                    </svg>
+                    {open && <span className=" ">Home</span>}
+                  </Link>
                 </li>
                 <li className="p-1 rounded-md stroke-text-light dark:stroke-text-dark text-text-light dark:text-text-dark hover:bg-highlight-light dark:hover:bg-highlight-dark hover:stroke-primary-light dark:hover:stroke-primary-dark hover:text-primary-light dark:hover:text-primary-dark">
-                  <Link
+                  <Link aria-label="projects"
                     to="/projects"
                     className="flex items-center p-2 space-x-3 rounded-md h-[1.5lh]"
                   >
@@ -59,7 +58,7 @@ export default function Sidebar() {
                   </Link>
                 </li>
                 <li className="p-1 rounded-md stroke-text-light dark:stroke-text-dark text-text-light dark:text-text-dark hover:bg-highlight-light dark:hover:bg-highlight-dark hover:stroke-primary-light dark:hover:stroke-primary-dark hover:text-primary-light dark:hover:text-primary-dark">
-                  <Link
+                  <Link aria-label="contacts"
                     to="/contact"
                     className="flex items-center p-2 space-x-3 rounded-md h-[1.5lh]"
                   >
@@ -115,7 +114,7 @@ export default function Sidebar() {
             </div>
           </div>
           <div className={`flex mb-2  ${open && "align-bottom justify-end"}`}>
-            <button
+            <button aria-label={open ? "close sidebar navigation" : "open sidebar navigation"}
               className="items-center p-2 space-x-3 rounded-md stroke-text-light dark:stroke-text-dark hover:stroke-primary-light dark:hover:stroke-primary-dark  hover:bg-highlight-light dark:hover:bg-highlight-dark"
               onClick={() => setOpen(!open)}
             >
