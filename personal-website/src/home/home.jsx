@@ -18,9 +18,9 @@ export default function Home() {
           </h1>
         </div>
         <div className="rounded-md border-2 border-highlight-light dark:border-secondary-dark p-2 my-2">
-          <h3 className="font-bold text-text-light dark:text-text-dark text-md lg:max-w-xl lg:text-xl">
+          <h2 className="font-bold text-text-light dark:text-text-dark text-md lg:max-w-xl lg:text-xl">
             Software Engineer
-          </h3>
+          </h2>
         </div>
         <div className="flex w-full font-bold justify-center  text-text-light dark:text-text-dark text-md md:justify-start lg:max-w-xl lg:text-lg">
           <div className="px-15 text-center md:pl-0 md:p-5 md:text-start">
