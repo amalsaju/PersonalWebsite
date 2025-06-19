@@ -29,7 +29,7 @@ export default function Home() {
             <br />
             Just here to build cool stuff and learn along the way!
             <br /> <br />
-            Current project:{" "}
+            Latest project:{" "}
             <span className="">
               {" "}
               <Link
@@ -37,7 +37,7 @@ export default function Home() {
                 className="font-bold text-text-light underline dark:text-text-dark text-md lg:max-w-xl lg:text-lg"
               >
                 {" "}
-                Game - The Boring Project
+                Image to ASCII converter
               </Link>
             </span>
           </div>
