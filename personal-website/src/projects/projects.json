@@ -25,18 +25,6 @@
   },
   {
     "id": 3,
-    "name": "Personal Website",
-    "summary": "This website",
-    "description": "The resume website was built using React with react-router for routing. Tailwind is used for the CSS styling.",
-    "imageName": "personal_website.gif",
-    "type": "web",
-    "technologies": "React, Javascript, tailwind",
-    "link": "https://github.com/amalsaju/PersonalWebsite",
-    "status": "in progress",
-    "imageAltName": "Animated GIF showing my personal website and its features"
-  },
-  {
-    "id": 4,
     "name": "Webpage Scraper",
     "summary": "A Property details aggregator using Playwright",
     "description": "A scraper application to scrape property details and aggregate all the information for easier data analysis. Built for a client.",
@@ -48,19 +36,7 @@
     "imageAltName": "No picture is available"
   },
   {
-    "id": 5,
-    "name": "The boring project",
-    "summary": "Game made for Ludum Dare Jam 57",
-    "description": "A game made in godot for LD jam 57. The pixel art was made in aseprite and the game served as an opportunity for me to practise pixel art.",
-    "imageName": "boring_project.gif",
-    "type": "game",
-    "technologies": "godot, gdscript, aseprite",
-    "link": "https://leofiremage.itch.io/the-boring-project",
-    "status": "in progress",
-    "imageAltName": "Animated GIF of the game The Boring Project in action"
-  },
-  {
-    "id": 6,
+    "id": 4,
     "name": "ButterCup Tide",
     "summary": "Tide login for a open source password manager",
     "description": "Tide.org developed a new and secure way for identity management on the internet. As a group of 3, my team implemented this technology in an open source password manager called Buttercup Tide for our internship program.",
@@ -72,7 +48,7 @@
     "imageAltName": "No picture is available"
   },
   {
-    "id": 7,
+    "id": 5,
     "name": "Interview Transcription",
     "summary": "AI interview transcription service",
     "description": "Created the backend for an AI powered transcription service using Microsoft Azure AI speech service for a client. The application listens to an interview, converts the speech to text recognising the speaker. Built for a client.",
@@ -84,10 +60,10 @@
     "imageAltName": "No picture is available"
   },
   {
-    "id": 8,
-    "name": "Other games",
-    "summary": "Old games",
-    "description": "These games were made using Unity ages ago. All of them were made for various game jams and then abandoned afterwards. You can check them out in my itch.io page.",
+    "id": 6,
+    "name": "Games",
+    "summary": "Some games I made",
+    "description": "These games were made using Unity and Godot. All of them were made for various game jams and then abandoned afterwards. You can check them out in my itch.io page.",
     "imageName": "game_projects.gif",
     "type": "game",
     "technologies": "Unity, aseprite, inkscape, sfxr, bfxr, audacity",
