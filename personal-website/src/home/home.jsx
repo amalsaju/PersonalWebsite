@@ -32,13 +32,13 @@ export default function Home() {
             Latest project:{" "}
             <span className="">
               {" "}
-              <Link
-                to="/projects"
+              <a
+                href="https://www.linkedin.com/posts/amal-saju-kalarickal_voice-controlled-desktop-agent-controls-activity-7376008881874878465-ioH8?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVldpsBnHXzki3j3xDTOhXrBfULqfSAtZU"
                 className="font-bold text-text-light underline dark:text-text-dark text-md lg:max-w-xl lg:text-lg"
               >
                 {" "}
-                Image to ASCII converter
-              </Link>
+                Ada: Autonomous Desktop Agent
+              </a>
             </span>
           </div>
         </div>
