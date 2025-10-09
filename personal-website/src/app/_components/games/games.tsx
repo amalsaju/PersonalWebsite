@@ -1,7 +1,9 @@
 
 const Games = () => {
   return (
-    <div>Games section</div>
+    <div className="flex flex-col text-lg text-center ">
+      Games
+    </div>
   );
 }
 

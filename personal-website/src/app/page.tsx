@@ -9,8 +9,9 @@ import Header from "./_components/header/header";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSun } from "@fortawesome/free-solid-svg-icons/faSun";
 import { faMoon } from "@fortawesome/free-regular-svg-icons";
+import AlternateHeader from "./_components/alternate-header/alternate-header";
 
-const enum Link {
+export const enum Link {
   ABOUT,
   PROJECTS,
   BLOG,
@@ -57,7 +58,9 @@ const Home = () => {
     text-light-base-content dark:text-dark-base-content text-sm" >
       {/* Header */}
       <div className="flex flex-col w-full items-center h-full">
-        {currentLink == Link.ABOUT && <Header />}
+        <AlternateHeader currentLink={currentLink} />
+        {/* {currentLink == Link.ABOUT && <Header />} */}
+        {/* {currentLink != Link.ABOUT && <AlternateHeader />} */}
         {/* Nav */}
 
         <div className="flex w-full md:w-2/5 h-1/3 md:mx-5 gap-5 bg-light-base-100 dark:bg-dark-base-100 justify-center ">

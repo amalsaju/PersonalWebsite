@@ -1,11 +1,9 @@
 
 
-
-
 const Projects = () => {
   return (
-    <div>
-      Projects Section
+    <div className="flex flex-col text-lg text-center ">
+      Projects
     </div>
   );
 }

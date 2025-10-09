@@ -1,12 +1,9 @@
 
 
-
-
-
 const PixelArt = () => {
   return (
-    <div>
-      Pixel Art Section
+    <div className="flex flex-col text-lg text-center ">
+      Pixel Art
     </div>
   );
 }
